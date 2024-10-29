@@ -21,3 +21,5 @@ cd AboutMePageWithComments
 ```bash
 docker-compose up
 ```
+
+Готово! Сайт доступен по адресу: http://localhost/
