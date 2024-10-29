@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  color: #555;
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.comment-form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.comment-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background: #0056b3;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comment {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
