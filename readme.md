@@ -8,7 +8,22 @@
 - **Бэкенд**: Django, Django REST Framework
 - **База данных**: SQLite (по умолчанию)
 
-## Установка и запуск
+## Установка и запуск (из docker hub)
+
+```bash
+git clone https://github.com/Webring/AboutMePageWithComments.git
+```
+
+```bash
+cd AboutMePageWithComments
+```
+
+```bash
+docker-compose -f docker-compose.prod.yml up -d
+```
+
+
+## Установка и запуск (локально)
 
 ```bash
 git clone https://github.com/Webring/AboutMePageWithComments.git

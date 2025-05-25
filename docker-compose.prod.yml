@@ -1,0 +1,18 @@
+version: '3'
+services:
+  backend:
+    image: webring/page-with-comments-backend:1.0
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - SECRET_KEY=project_secret_key
+      - DEBUG=0
+
+  frontend:
+    image: webring/page-with-comments-frontend:1.0
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
